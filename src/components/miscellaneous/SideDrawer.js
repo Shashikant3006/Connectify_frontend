@@ -126,15 +126,15 @@ const accessChat=async(userId)=>{
         </Tooltip>
         <Text fontSize="40px" fontFamily="Work sans" fontWeight ="Bold"color="#38B2AC">Connectify</Text>
         <div>
-          <Menu>
-            <MenuButton p={1}>
+          // <Menu>
+            // <MenuButton p={1}>
             // <NotificationBadge
             //     count={notification.length}
             //     effect={Effect.SCALE}
             //   />
             //   <BellIcon fontSize="3xl" m={1} color="darkgray"/>
-            </MenuButton>
-            <MenuList pl={2}>
+            // </MenuButton>
+            // <MenuList pl={2}>
             // {!notification.length && "No New Messages"}
             //   {notification.map((notif) => (
             //     <MenuItem
@@ -149,8 +149,8 @@ const accessChat=async(userId)=>{
             //         : `New Message from ${getSender(user, notif.chat.users)}`}
             //     </MenuItem>
             //   ))}
-            </MenuList>
-          </Menu>
+            // </MenuList>
+          // </Menu>
           <Menu>
             <MenuButton size="15px" as={Button} rightIcon={<ChevronDownIcon/>}>
               <Avatar size="sm" cursor="pointer" name={user.name} src={user.pic}/>
